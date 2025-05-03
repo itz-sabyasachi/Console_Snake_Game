@@ -6,17 +6,17 @@ A lightweight, console-based implementation of the iconic Snake game built with 
 Game Loop: Uses a continuous loop with Sleep() for frame control (~120ms delay).
 
 # Libraries Used
-1) "<iostream>"
+1) iostream
 <br>
-2) <vector>
+2) vector
  <br>
-3) <cstdlib>
+3) cstdlib
  <br>
-4) <ctime>
+4) ctime
  <br>
-5) <windows.h>
+5) windows.h
  <br>
-6) <conio.h>
+6) conio.h
 
 # 1. Core Classes
 # Snake Class
@@ -65,10 +65,10 @@ Rendering: Dynamically redraws the grid (20x20 by default) with borders (using h
 Score System: +10 point per food eaten
 
 # Why These Libraries?
- <windows.h>: Required for Windows-specific console control (clearing screen, delays).
+ windows.h: Required for Windows-specific console control (clearing screen, delays).
 <br>
- <conio.h>: Lightweight alternative to heavier input libraries (like SFML).
+ conio.h: Lightweight alternative to heavier input libraries (like SFML).
 <br>
- <vector>: Efficiently manages dynamic snake length.
+ vector: Efficiently manages dynamic snake length.
 <br>
- <cstdlib>: Simplifies random food placement.
+ cstdlib: Simplifies random food placement.
