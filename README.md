@@ -32,22 +32,24 @@ Game Loop: Uses a continuous loop with Sleep() for frame control (~120ms delay).
 
 // Wall collision
 if (head.first <= 0 || head.first >= width - 1) → Game Over
+<br>
 // Self-collision
+<br>
 if (head == body[i]) → Game Over
 
 3)Food System: Random spawns with rand(), avoids snake body.
 
 # 2. Rendering Logic
-# Grid Drawing:
+Grid Drawing:
 
-1)Borders (#), Snake (O head / o body), Food (*).
+1)Borders (with Hashtag), Snake (O head / o body), Food (with asterisk).
 
 2)Refreshes with system("cls") each frame.
 
 
 # Snake Mechanics:
 
-Grows when eating food (*)
+Grows when eating food (used asterisk symbol for this)
 
 Dies on wall/self collisions
 
@@ -62,6 +64,6 @@ Score System: +10 point per food eaten
 
  <conio.h>: Lightweight alternative to heavier input libraries (like SFML).
 
-<vector>: Efficiently manages dynamic snake length.
+ <vector>: Efficiently manages dynamic snake length.
 
-<cstdlib>: Simplifies random food placement.
+ <cstdlib>: Simplifies random food placement.
