@@ -60,7 +60,7 @@ Dies on wall/self collisions
 
 Direction changes via WASD input
 
-Rendering: Dynamically redraws the grid (20x20 by default) with borders (using hashtags), snake (O), and food (with asterisk).
+Rendering: Dynamically redraws the grid (40x20 by default) with borders (using hashtags), snake (O), and food (with asterisk).
 
 Score System: +10 point per food eaten
 
